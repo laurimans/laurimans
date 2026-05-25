@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Laura Manso Herrero</title>
+        <link rel="stylesheet" href="main.css"></link>
+    </head>
+
+
+    <body>
+        <!--Lo que se va a quedar en la pantalla to el rato-->
+        <div class="overlay">
+            <div class="navbar">
+              <!--Barra de navegación-->
+              <div class="menu">
+                    <div class="navButton" onclick="goto('inicio')">
+                        <span>Inicio</span>
+                    </div>
+                    <div class="navButton" onclick="goto('about')">
+                        <span>Sobre mí</span>
+                    </div>
+                    <div class="navButton" onclick="goto('proyectos')">
+                        <span>Proyectos</span>
+                    </div>
+                    <div class="navButton" onclick="goto('contacto')">
+                        <span>Contacto</span>
+                    </div>
+              </div>
+
+              <!--Redes sociales-->
+              <div class="redes">
+                    <a href= "https://www.instagram.com/lauriman_/" class="navButton">
+                        <span>Instagram</span>
+                    </a>
+                    <a href= "https://lauriman.itch.io" class="navButton">
+                        <span>Itchio</span>
+                    </a>
+              </div>
+            </div>  
+        </div>
+
+        <!--Inicio-->
+        <div id="inicio" class="page">
+            <div class="fotoPerfil">
+                <img src="Imagenes/Laura.jpg">
+                <div></div>
+            </div>
+            <div class="textoInicio">
+                <span id="inicioTitulo">Hola, soy Laura</span>
+                <span id="inicioTexto">Soy estudiante de Diseño y desarrollo de videojuegos</span>
+            </div>
+        </div>
+
+        <!--About-->
+        <div id="about" class="page">
+            <!--Foto-->
+            <h1>Habilidades</h1>
+            <span>Tengo habilidades de tal y pascual</span>
+        </div>
+
+        <!--Proyectos-->
+        <div id="proyectos" class="page">
+            <h1>Proyectos</h1>
+            <span>EJEJEJEJE no tengo jejej</span>
+        </div>
+
+        <!--Contacto-->
+        <div id="contacto" class="page">
+            <h1>Contacto</h1>
+            <span>lauramansoherrero@gmail.com</span>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
